@@ -8,6 +8,8 @@ from cgshop2025_pyutils.data_schemas.solution import Cgshop2025Solution
 from cgshop2025_pyutils.geometry import Point, compute_convex_hull
 from cgshop2025_pyutils.naive_algorithm import DelaunayBasedSolver
 
+from bernEppstein.main import BESolver
+
 
 def test_verify():
     instance = Cgshop2025Instance(
@@ -20,7 +22,7 @@ def test_verify():
         additional_constraints=[[5, 6]],
     )
 
-    solver = DelaunayBasedSolver(instance)
+    solver = BESolver(instance)
     solution = solver.solve()
     result = verify(instance, solution)
     assert not result.errors

@@ -1,0 +1,31 @@
+{
+  "content_type": "CG_SHOP_2025_Instance",
+  "instance_uid": "sample_hexagon",
+  "num_points": 6,
+  "points_x": [
+    "0",
+    "2",
+    "3",
+    "2",
+    "0",
+    "-1"
+  ],
+  "points_y": [
+    "0",
+    "0",
+    "1",
+    "2",
+    "2",
+    "1"
+  ],
+  "region_boundary": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "num_constraints": 0,
+  "additional_constraints": []
+}

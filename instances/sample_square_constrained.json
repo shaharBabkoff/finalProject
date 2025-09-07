@@ -1,0 +1,30 @@
+{
+  "content_type": "CG_SHOP_2025_Instance",
+  "instance_uid": "sample_square_constrained",
+  "num_points": 4,
+  "points_x": [
+    "0",
+    "3",
+    "3",
+    "0"
+  ],
+  "points_y": [
+    "0",
+    "0",
+    "3",
+    "3"
+  ],
+  "region_boundary": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "num_constraints": 1,
+  "additional_constraints": [
+    [
+      0,
+      2
+    ]
+  ]
+}

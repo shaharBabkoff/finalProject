@@ -1,0 +1,28 @@
+{
+  "content_type": "CG_SHOP_2025_Instance",
+  "instance_uid": "sample_pentagon",
+  "num_points": 5,
+  "points_x": [
+    "0",
+    "2",
+    "3",
+    "1",
+    "-1"
+  ],
+  "points_y": [
+    "0",
+    "0",
+    "2",
+    "3",
+    "2"
+  ],
+  "region_boundary": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "num_constraints": 0,
+  "additional_constraints": []
+}

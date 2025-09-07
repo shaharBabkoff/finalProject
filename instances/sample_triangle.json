@@ -1,0 +1,22 @@
+{
+  "content_type": "CG_SHOP_2025_Instance",
+  "instance_uid": "sample_triangle",
+  "num_points": 3,
+  "points_x": [
+    "0",
+    "3",
+    "0"
+  ],
+  "points_y": [
+    "0",
+    "0",
+    "4"
+  ],
+  "region_boundary": [
+    0,
+    1,
+    2
+  ],
+  "num_constraints": 0,
+  "additional_constraints": []
+}
